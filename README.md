@@ -11,4 +11,4 @@ Este é um projeto Angular com Bootstrap que recebe três valores numéricos e e
 
 1. Clone este repositório:
    ```sh
-   git clone https://github.com/seu-usuario/angular-maior-valor.git
+   git clone https://github.com/GabrielaCardosoo/angular-maior-valor.git
