@@ -1,0 +1,27 @@
+<div class="container mt-4 d-flex justify-content-center">
+    <div class="card p-4 shadow" style="max-width: 400px; width: 100%;">
+      <h2 class="mb-3 text-center">Maior Valor</h2>
+  
+      <div class="mb-3">
+        <label for="valor1" class="form-label">Digite o 1º valor</label>
+        <input type="number" id="valor1" class="form-control" [(ngModel)]="valor1">
+      </div>
+  
+      <div class="mb-3">
+        <label for="valor2" class="form-label">Digite o 2º valor</label>
+        <input type="number" id="valor2" class="form-control" [(ngModel)]="valor2">
+      </div>
+  
+      <div class="mb-3">
+        <label for="valor3" class="form-label">Digite o 3º valor</label>
+        <input type="number" id="valor3" class="form-control" [(ngModel)]="valor3">
+      </div>
+  
+      <button class="btn btn-primary w-100" (click)="calcularMaior()">Calcular</button>
+  
+      <div *ngIf="maiorValor !== undefined" class="alert alert-success mt-3 text-center">
+        O maior valor é: <strong>{{ maiorValor }}</strong>
+      </div>
+    </div>
+  </div>
+  
